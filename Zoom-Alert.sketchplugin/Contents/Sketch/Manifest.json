@@ -1,0 +1,15 @@
+{
+    "name" : "Zoom Alert",
+    "identifier" : "com.sketchapp.plugin.Zoom-Alert",
+    "version" : "2.0",
+    "description" : "Show a small notification with the document zoom percent.",
+    "authorEmail" : "code@nath.co",
+    "author" : "Nathan Rutzky",
+    "commands" : [{
+        "script" : "Zoom-Alert.js",
+        "handler" : "onRun",
+        "shortcut" : "control z",
+        "name" : "Zoom Alert",
+        "identifier" : "Zoom-Alert"
+    }]
+}
